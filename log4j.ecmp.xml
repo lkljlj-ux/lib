@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<logger name="in.gov.uidai" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="stdout" />
+		<appender-ref ref="disk" />
+	</logger>
+
+	<logger name="in.gov.uidai.ec" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="stdout" />
+		<appender-ref ref="disk" />
+	</logger>
+</log4j:configuration>

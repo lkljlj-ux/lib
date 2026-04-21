@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<logger name="in.gov.uidai" level="info" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+    <logger name="com.cognirel" level="error" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </logger>
+	<logger name="in.gov.uidai.ec.biometrics" level="info" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+
+</included>

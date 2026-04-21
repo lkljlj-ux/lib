@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<logger name="in.gov.uidai.swing" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="stdout" />
+		<appender-ref ref="disk" />
+	</logger>
+
+	<logger name="in.gov.uidai.litef" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="stdout" />
+		<appender-ref ref="disk" />
+	</logger>
+
+	<logger name="in.gov.uidai.ec.bioc" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="biodisk" />
+	</logger>
+
+	<logger name="in.gov.uidai.qssitv" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="biodisk" />
+	</logger>
+
+	<logger name="in.gov.uidai.eca" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="stdout" />
+	</logger>
+
+</log4j:configuration>

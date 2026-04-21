@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<logger name="in.gov.uidai" level="trace" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+
+	<logger name="in.gov.uidai.ec.biometrics" level="info" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+
+</included>

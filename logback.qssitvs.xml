@@ -1,0 +1,6 @@
+<included>
+	<logger name="in.gov.uidai" additivity="false" level="info" >
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+</included>
